@@ -1,0 +1,65 @@
+joshMac:csc520 joshreese$ javac Proj2_reese.java 
+joshMac:csc520 joshreese$ java Proj2_reese
+Creating a new tree with stock name Exxon and price 2.5 (insert(Exxon,2.5))
+Inserting multiple elements to demonstrate working functions
+This is the current tree in alphabetical order (showAll())
+Name: Abc Price: 4.5
+Name: bbbc Price: 4.5
+Name: Exxon Price: 2.5
+Name: fdj Price: 1.0
+Name: Shell Price: 3.5
+Name: Zzz Price: 1.0
+
+Running find on stock name Shell
+Find Shell: Shell Price: 3.5
+
+Deleting node with stockname Shell
+Tree with deleted stock in alphabetical order:
+Name: Abc Price: 4.5
+Name: bbbc Price: 4.5
+Name: Exxon Price: 2.5
+Name: fdj Price: 1.0
+Name: Zzz Price: 1.0
+
+Running find on stock name Abc
+Find Abc: Abc Price: 4.5
+
+Deleting node with stockname Abc
+Tree with deleted stock in alphabetical order:
+Name: bbbc Price: 4.5
+Name: Exxon Price: 2.5
+Name: fdj Price: 1.0
+Name: Zzz Price: 1.0
+
+Finding max price
+Max price = 4.5
+
+Find the range of Exxon stock
+2/3	1/3
+Changing Zzz price to 1.5
+Name: bbbc Price: 4.5
+Name: Exxon Price: 2.5
+Name: fdj Price: 1.0
+Name: Zzz Price: 1.5
+
+Finding the high average of stockprices >= 1.4
+High average: 2.8333333333333335
+
+Additional features:
+Show price tree (breadth-first)
+Name: Exxon Price: 2.5
+Name: fdj Price: 1.0
+Name: bbbc Price: 4.5
+Name: Zzz Price: 1.5
+
+Show name tree (breadth-first)
+Name: Exxon Price: 2.5
+Name: bbbc Price: 4.5
+Name: fdj Price: 1.0
+Name: Zzz Price: 1.5
+
+Number of nodes in either tree: 4
+Number of nodes with price below 1.5: 1
+Number of nodes with price above 1.5: 3
+Sum of prices above 1.5: 8.5
+
